@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom css link-->
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Responsive Headphones Website</title>
+
+    <!--Boxicons css link-->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--Google fonts css link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--Header design-->
+    <header>
+        <a href="#" class="logo"><i class="bx bx-headphone"></i>Soundbox</a>
+    
+    
+    <ul class="navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#" >Especificaciones Técnicas</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Contáctanos</a></li>
+    </ul>
+
+    <div class="header-icons">
+        <i class="bx bx-cart"></i>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+    </header>
+
+    <!--home design-->
+    <section class="home">
+        <div class="home-img">
+            <img src="/img/headphone3.png" class="one">
+        </div>
+
+        <div class="home-text">
+            <h1>Auriculares <br> Inalámbricos</h1>
+            <h5>La manera más inteligente de disfrutar de la música</h5>
+            <h3>200€</h3>
+            <a href="#" class="btn">Consíguelos ya!!</a>
+        </div>
+    </section>
+
+        <div class="main">
+            <div class="row">
+                <li><img class="img-row" src="/img/headphone3.png" onclick="slider('/img/headphone3.png')"></li>
+            </div>
+
+            <div class="row row2">
+                <li><img class="img-row" src="/img/headphone2.png" onclick="slider('/img/headphone2.png')" ></li>
+            </div>
+
+            <div class="row row3">
+                <li><img class="img-row" src="/img/headphone4.png" onclick="slider('/img/headphone4.png')"></li>
+            </div>
+        </div>
+
+        <a href="#" class="bottom">Scroll Down<i class='bx bx-down-arrow-circle'></i></a>
+
+        <!--Slider and navbar script-->
+        <script src="/js/slider.js"></script>
+</body>
+</html>
